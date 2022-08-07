@@ -1,3 +1,27 @@
+:root{
+    
+}
 body{
     background-color: #ffffff;
+    color: #757575;
+}
+.list{
+    list-style: none;
+}
+/* Шапка */
+.logo-web{
+color: #2196F3;
+}
+.site-nav{
+    color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.contacts a:hover,
+.contacts a:focus{
+color: #2196F3;
+}
+/* Основний контент */
+h3, h2{
+    color: #212121;
 }
