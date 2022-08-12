@@ -49,8 +49,15 @@ a {
 .hero-title {
   color: var(--hero-text-color);
 }
-.button,
-.button-portf {
+.button {
+  color: var(--hero-text-color);
+  background-color: var(--color-hover);
+}
+.button-portf{
+  color: var(--title-text-color);
+}
+.button-portf:hover,
+.button-portf:focus {
   color: var(--hero-text-color);
   background-color: var(--color-hover);
 }
