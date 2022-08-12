@@ -26,6 +26,9 @@ a {
 .logo {
   color: var(--logo-text-col);
 }
+.site-nav .current:visited {
+  color: green;
+}
 
 .site-nav a {
   color: var(--title-text-color);
@@ -46,7 +49,8 @@ a {
 .hero-title {
   color: var(--hero-text-color);
 }
-.button {
+.button,
+.button-portf {
   color: var(--hero-text-color);
   background-color: var(--color-hover);
 }
@@ -54,7 +58,20 @@ a {
   color: var(--title-text-color);
 }
 .non-display {
-  font-size: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-team {
+  background-color: var(--background-section-col);
 }
 
 /* Футер */
