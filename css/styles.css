@@ -53,7 +53,7 @@ a {
   color: var(--hero-text-color);
   background-color: var(--color-hover);
 }
-.button-portf{
+.button-portf {
   color: var(--title-text-color);
 }
 .button-portf:hover,
