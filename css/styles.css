@@ -12,12 +12,14 @@
 }
 body {
   color: var(--text-color);
+  font-family: Roboto, sans-serif;
 }
 a {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 /* Шапка */
 .logo-web {
@@ -26,12 +28,25 @@ a {
 .logo {
   color: var(--logo-text-col);
 }
+.logo,
+.logo-web,
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .site-nav .current:visited {
   color: green;
 }
 
 .site-nav a {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus,
@@ -41,6 +56,10 @@ a {
 }
 .contacts a {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* Основний контент */
 .hero {
@@ -48,13 +67,36 @@ a {
 }
 .hero-title {
   color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--hero-text-color);
   background-color: var(--color-hover);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button,
+.button-portf {
+  cursor: pointer;
+  font-family: inherit;
 }
 .button-portf {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-portf:hover,
 .button-portf:focus {
@@ -63,6 +105,47 @@ a {
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.example-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.group {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.skills {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.about-skills {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .non-display {
   position: absolute;
@@ -75,6 +158,8 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.example-title {
 }
 
 .section-team {
