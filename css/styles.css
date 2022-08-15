@@ -50,7 +50,7 @@ a {
   color: var(--color-hover);
 }
 
-.buttons .current{
+.buttons .current {
   background-color: var(--color-hover);
   color: #ffffff;
 }
@@ -71,12 +71,17 @@ a {
 
 .contacts a {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+}
+.footer-contacts a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.02em;
 }
-
 .non-display {
   position: absolute;
   white-space: nowrap;
@@ -205,6 +210,6 @@ footer a {
   color: var(--footer-text-color);
 }
 
-.contacts .adres {
+.footer-contacts .adres {
   color: var(--white-color);
 }
